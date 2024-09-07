@@ -50,7 +50,7 @@ After running the start script, copy the address shown in the terminal and open 
 
 - The admin page can be accessed at:
   ```
-  http://localhost:PORT/
+  http://localhost:8080‎/
   ```
   Replace `PORT` with the appropriate port number displayed by the terminal after running the start script.
 
