@@ -23,7 +23,7 @@ To install **Instahack**, follow these steps:
 1. Open the Termux app on your device.
 2. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/instahack.git
+   git clone https://github.com/MRHackerx00/Instahack.git
    ```
 3. Navigate to the project directory:
    ```bash
@@ -83,20 +83,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to reach out if you have any questions or need further assistance!
+
 ```
 
-### How to Use This README.md
 
-1. Copy the above content.
-2. Create a file named `README.md` in the root of your **Instahack** project directory.
-3. Paste the copied content into the `README.md` file.
-4. Modify any specific parts like repository links and adjust any details necessary for your project.
-5. Save the file, and then add, commit, and push it to your GitHub repository:
-   ```bash
-   git add README.md
-   git commit -m "Add README file"
-   git push origin main  # Replace 'main' with your current branch name if necessary.
-   ```
-
-This README file provides a clear overview of **Instahack**, installation instructions, and usage guidelines tailored for Termux, along with information about contributing and licensing.
