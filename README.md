@@ -1,4 +1,4 @@
-Here’s a structured `README.md` file for your GitHub repository named **Instahack**. This file includes all the details you mentioned:
+**Instahack**
 
 ```markdown
 # Instahack
