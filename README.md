@@ -1,4 +1,9 @@
 **Instahack**
+```markdown
+# Instahack
+
+**Instahack** is an ethical hacking tool designed specifically for the Termux app on Android devices. It functions as a phishing tool that assists cybersecurity professionals and ethical hackers in testing the security of various systems by simulating phishing attacks. This open-source project provides users with the ability to create phishing pages for educational and research purposes, enabling them to understand and demonstrate vulnerabilities in a controlled and responsible manner. Always remember to use this tool ethically and with proper authorization.
+```
 
 ```markdown
 # Instahack
