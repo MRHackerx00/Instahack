@@ -1,5 +1,6 @@
 **Instahack**
-
+### Description:
+"An educational project demonstrating how to create a phishing awareness page using Python Flask. This project aims to inform users about phishing attacks and how to identify them. It is designed for educational purposes only, encouraging better security practices and awareness around cybersecurity threats."
 
 # Instahack
 
