@@ -60,28 +60,7 @@ After running the start script, copy the address shown in the terminal and open 
   ```
   Replace `PORT` with the appropriate port number displayed by the terminal after running the start script.
 
-## Contributing
 
-Contributions are welcome! To contribute to **Instahack**, please follow these steps:
-
-1. Fork the repository.
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature/MyFeature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m 'Add some feature'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/MyFeature
-   ```
-5. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
 
